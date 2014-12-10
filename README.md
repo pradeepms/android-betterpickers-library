@@ -70,32 +70,7 @@ Changelog
 
 Including in Your Project
 =========================
-
-Android-BetterPickers is presented as an [Android library project][7]. A
-standalone JAR is not possible due to the theming capabilities offered by the DialogFragments.
-
-You can include this project by [referencing it as a library project][8] in
-Eclipse or ant.  Note that to use this library, both it and your project must be compiled with Android 4.0 (API level 14) or newer, similar to ActionBarSherlock.
-
-If you are a Maven user you can easily include the library by specifying it as
-a dependency:
-
-    <dependency>
-      <groupId>com.doomonafireball.betterpickers</groupId>
-      <artifactId>library</artifactId>
-      <version>1.5.2</version>
-      <type>aar</type>
-    </dependency>
-
-If you are a Gradle user you can also easily include the library:
-
-    compile 'com.doomonafireball.betterpickers:library:1.5.2'
-
-If you are bringing in the support library you may need to add an exclusion:
-
-    compile ("com.doomonafireball.betterpickers:library:1.5.2") {
-        exclude group: 'com.android.support', module: 'support-v4'
-    }
+Import it as an android library project.
 
 There is a standalone Gradle demo [here][14] that may also help.
 
